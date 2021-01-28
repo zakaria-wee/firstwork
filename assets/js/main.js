@@ -197,11 +197,4 @@ ok=true
       })
       ok=false
      }
-     if(ok==false){
-      const lu=document.getElementById('lus');
-      const li=document.createElement('li')
-      li.innerHTML="hello"
-      lu.appendChild(li);
-       ok=true
-     }
   }
