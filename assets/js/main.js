@@ -182,7 +182,7 @@
 ok=true
   function app() {
      if (ok==true) {
-      fetch('http://localhost:3000/zakaria')
+      fetch('https://training002000.herokuapp.com/zakaria')
       .then(response => response.json())
       .then(json => {
           const lu=document.getElementById('lus');
